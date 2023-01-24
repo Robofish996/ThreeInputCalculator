@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 190, 165);
+    margin: 0;
+}
+
+#buttonOne{
+    text-align: center;
+}
+#buttonTwo{
+    text-align: center;
+}
