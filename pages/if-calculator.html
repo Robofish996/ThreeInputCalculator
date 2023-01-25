@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/ifcal.css">
     <title>if-calculator</title>
 </head>
+
 <body>
     <header>
         <h1>If-calculator</h1>
-        <p>To use this calculator please enter a number  </p>
+        <p>To use this calculator please enter a number </p>
     </header>
     <main>
-        <input type="number" id="numInputOne" placeholder="Enter number A">
-        <input type="text" id="action" placeholder="* or / or + or - ">
-        <input type="number" id="numInputTwo" placeholder="Enter number B">
-        
+        <div id="">
+            <input type="number" id="numInputOne" placeholder="Enter number A">
+        </div>
+        <div>
+            <input type="text" id="action" placeholder="* or / or + or - ">
+        </div>
+        <div>
+            <input type="number" id="numInputTwo" placeholder="Enter number B">
+        </div>
+
+        <div id="result"></div>
         <button onclick="myFunction()">calculate</button>
+
+
     </main>
     <script src="/functions/if-cal.js" type="text/javascript"></script>
 </body>
+
 </html>
