@@ -25,8 +25,7 @@ function myFunction() {
     }
 
     // display the result
-
-    document.getElementById('result').innerHTML += (htmlNumOne) +' '+ (htmlAction) +' '+ (htmlNumTwo) +' '+ ("=") +' '+ (answer);
+    document.getElementById('result').innerHTML +=  `${htmlNumOne}  ${htmlAction} ${htmlNumTwo} = ${answer}` ;
 }
 
 
