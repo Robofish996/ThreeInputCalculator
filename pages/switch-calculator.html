@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/swical.css"
     <title>switch-calculator</title>
 </head>
+
 <body>
-    <header>THIS IS THE SWITCH Calculator</header>
+    <header>
+        <h1>Calculator using the switch-statement solution.</h1>
+        <p>To use this calculator please enter a number in the Number A field then what method you would
+            like to use (* for times, / for devide, + for plus, - for minus. Then the next number in option B)</p>
+    </header>
+    <main>
+        <div>
+            <input id="inputOne" type="number" placeholder="Please enter number A here">
+        </div>
+
+        <div>
+            <input id="action" type="text" placeholder="or / or + or -">
+        </div>
+        <div>
+
+            <input id="inputTwo" type="number" placeholder="Please enter Number B here">
+        </div>
+
+        <div id="result"></div>
+
+        <button onclick="myFunction()">calculate</button>
+
+        <div class="return">
+            <button onclick="history.back()">Go Back</button>
+        </div>
+    </main>
+    <script src="/functions/swi-cal.js"></script>
 </body>
+
 </html>
