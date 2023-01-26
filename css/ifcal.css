@@ -28,3 +28,7 @@ button{
 .return{
     padding: 1rem;
 }
+#result{
+    padding: 1rem;
+    color: aqua;
+}
